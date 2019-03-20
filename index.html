@@ -13,21 +13,22 @@
 <body>
 
   <main>
-    <form class="island max-length pad-t-2">
-      <header>
+    <form class="max-length">
+      <header class="push island">
       <div class="green">
         <h1>Apply to be a tree planter</h1>
         <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
       </div>
     </header>
 
+<div class="island-1-2 push">
       <fieldset>
-        <legend class="giga">Personal details</legend>
+        <legend class="giga push pad-t-1-2">Personal details</legend>
         <div class="grid">
           <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right">
             <label for="name">Full name</label>
             <input id="name" name="name" required>
-            <p class="italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</P>
+            <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</P>
             </div>
 
             <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left">
@@ -36,12 +37,12 @@
               <p class="italic">What all your friends call you, e.g. “Liz”.</P>
               </div>
 
-              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right push">
                 <label for="age">Date of birth</label>
                 <input id="age" type="date" name="age" required>
               </div>
 
-              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left push">
                 <label for="subject">T-shirt size</label>
                 <select id="subject" name="_subject" placeholder="Select a t-shirt size">
                   <option>Fitted: XS</option>
@@ -56,11 +57,11 @@
                   <option>Straight-cut: XL</option>
                 </select>
               </div>
-              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right push">
                 <label for="email">Email</label>
                 <input id="email" type="email" name="email" required>
               </div>
-              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left push-1-2">
                 <label for="tel">Phone number (optional)</label>
                 <input id="tel" name="tel" type="tel" required>
               </div>
@@ -70,18 +71,18 @@
           <hr>
 
           <fieldset>
-            <legend class="giga">Address</legend>
+            <legend class="giga push pad-t">Address</legend>
             <div class="grid">
-              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right push">
                 <label for="street">Street address</label>
-                <input type="address" id="street" name="street" required>
+                <input id="street" name="street">
               </div>
 
-              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left push">
                 <label for="city">City</label>
                 <input id="city" name="city" required>
               </div>
-              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right push">
                 <label for="province">Province</label>
                 <select id="province" name="province" placeholder="Select a province">
                   <option>Alberta</option>
@@ -98,7 +99,7 @@
                   <option>Yukon</option>
                 </select>
               </div>
-              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left push">
                 <label for="postal">Postal code</label>
                 <input id="postal" name="postal" required>
               </div>
@@ -159,7 +160,6 @@
 
               </div>
               </div>
-            </div>
           </fieldset>
 
             <fieldset>
@@ -231,8 +231,8 @@
                   <label for="license">Yes</label>
                 </div>
                 <div class="ib gutter-1-2 pad-t-1-8 pad-b-1-8 push-r">
-                  <input type="radio" id="license" name="driver">
-                  <label for="license">No</label>
+                  <input type="radio" id="license-2" name="driver">
+                  <label for="license-2">No</label>
                 </div>
             </fieldset>
 
@@ -243,8 +243,8 @@
                   <label for="truck">Yes</label>
                 </div>
                 <div class="ib gutter-1-2 pad-t-1-8 pad-b-1-8 push-r">
-                  <input type="radio" id="truck" name="pick">
-                  <label for="truck">No</label>
+                  <input type="radio" id="truck-2" name="pick">
+                  <label for="truck-2">No</label>
                 </div>
             </fieldset>
 
@@ -255,8 +255,8 @@
                   <label for="certification">Yes</label>
                 </div>
                 <div class="ib gutter-1-2 pad-t-1-8 pad-b-1-8 push-r">
-                  <input type="radio" id="certification" name="aid">
-                  <label for="certification">No</label>
+                  <input type="radio" id="certification-2" name="aid">
+                  <label for="certification-2">No</label>
                 </div>
             </fieldset>
 
@@ -277,7 +277,7 @@
             <div>
               <footer>© Tree Hugger International Organization</footer>
             </div>
-
+</div>
           </form>
 
         </main>
