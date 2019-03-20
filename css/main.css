@@ -1,3 +1,17 @@
 html {
   font-family: 'Noto Serif', serif;
 }
+
+fieldset {
+  border: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .pad-left {
+    padding-left: .5em;
+  }
+
+  .pad-right {
+    padding-right: .5em;
+  }
