@@ -16,6 +16,15 @@ footer {
   color: #fff;
 }
 
+span {
+  color: #70ad55;
+}
+
+.btn {
+  background-color: #70ad55;
+  color: #fff;
+}
+
 select,
 input,
 textarea,
