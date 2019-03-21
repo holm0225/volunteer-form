@@ -11,6 +11,11 @@ header {
   color: #fff;
 }
 
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
 select,
 input,
 textarea,

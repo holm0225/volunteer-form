@@ -25,13 +25,13 @@
       <fieldset>
         <legend class="giga push pad-t-1-2">Personal details</legend>
         <div class="grid">
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right push-1-2">
             <label for="name">Full name</label>
             <input id="name" name="name" required>
             <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</P>
             </div>
 
-            <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left push-1-2">
               <label for="nickname">What should we call you?</label>
               <input id="nickname" name="nickname" required>
               <p class="italic">What all your friends call you, e.g. “Liz”.</P>
@@ -44,7 +44,8 @@
 
               <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left push">
                 <label for="subject">T-shirt size</label>
-                <select id="subject" name="_subject" placeholder="Select a t-shirt size">
+                <select id="subject" name="_subject">
+                  <option value="disabled selected">Select a t-shirt size</option>
                   <option>Fitted: XS</option>
                   <option>Fitted: S</option>
                   <option>Fitted: M</option>
@@ -61,7 +62,7 @@
                 <label for="email">Email</label>
                 <input id="email" type="email" name="email" required>
               </div>
-              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left push-1-2">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-left push">
                 <label for="tel">Phone number (optional)</label>
                 <input id="tel" name="tel" type="tel" required>
               </div>
@@ -71,7 +72,7 @@
           <hr>
 
           <fieldset>
-            <legend class="giga push pad-t">Address</legend>
+            <legend class="giga push pad-t push">Address</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right push">
                 <label for="street">Street address</label>
@@ -84,7 +85,8 @@
               </div>
               <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-right push">
                 <label for="province">Province</label>
-                <select id="province" name="province" placeholder="Select a province">
+                <select id="province" name="province">
+                  <option value="disabled selected">Select a province</option>
                   <option>Alberta</option>
                   <option>British Columbia</option>
                   <option>Manitoba</option>
@@ -109,7 +111,7 @@
           <hr>
 
           <fieldset>
-            <legend>What activities are you interested in helping with?</legend>
+            <legend class="push">What activities are you interested in helping with?</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1-2 l-1-2">
 
@@ -225,7 +227,7 @@
             <hr>
 
             <fieldset>
-              <legend>Do you have a valid driver’s license?</legend>
+              <legend class="push">Do you have a valid driver’s license?</legend>
                 <div class="ib gutter-1-2 pad-t-1-8 pad-b-1-8 push-r">
                   <input type="radio" id="license" name="driver">
                   <label for="license">Yes</label>
@@ -237,7 +239,7 @@
             </fieldset>
 
             <fieldset>
-              <legend>Do you have a pick-up truck you’d be willing to use?</legend>
+              <legend class="push">Do you have a pick-up truck you’d be willing to use?</legend>
                 <div class="ib gutter-1-2 pad-t-1-8 pad-b-1-8 push-r">
                   <input type="radio" id="truck" name="pick">
                   <label for="truck">Yes</label>
@@ -249,7 +251,7 @@
             </fieldset>
 
             <fieldset>
-              <legend>Do you have up-to-date first-aid certification?</legend>
+              <legend class="push">Do you have up-to-date first-aid certification?</legend>
                 <div class="ib gutter-1-2 pad-t-1-8 pad-b-1-8 push-r">
                   <input type="radio" id="certification" name="aid">
                   <label for="certification">Yes</label>
