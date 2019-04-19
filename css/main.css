@@ -6,14 +6,18 @@ fieldset {
   border: none;
 }
 
-header {
+header,
+.footer {
   background-color: #70ad55;
   color: #fff;
 }
 
-footer {
-  background-color: #70ad55;
-  color: #fff;
+hr {
+  border-color: #6e8c62;
+}
+
+textarea {
+  height: 10em;
 }
 
 span {
@@ -21,30 +25,24 @@ span {
 }
 
 .btn {
-  background-color: #70ad55;
-  color: #fff;
-}
-
-select,
-input,
-textarea,
-input[type="checkbox"] + label::before,
-input[type="radio"] + label::before {
+  background-color: #6e8c62;
   border-color: #6e8c62;
 }
 
-hr {
-  border-color: #70ad55;
+input,
+select,
+textarea {
+  border-color: #6e8c62;
 }
 
 @media only screen and (min-width: 38em) {
 
-  .pad-left {
-    padding-left: .5em;
+  .pad-l {
+    padding-left: .7rem;
   }
 
-  .pad-right {
-    padding-right: .5em;
+  .pad-r {
+    padding-right: .7rem;
   }
 
 }
